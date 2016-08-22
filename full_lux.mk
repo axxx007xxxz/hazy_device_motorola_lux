@@ -15,7 +15,7 @@
 #
 
 # Inherit from lux device
-$(call inherit-product, device/motorola/lux/device.mk)
+$(call inherit-product, device/motorola/lux/lux.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lux
